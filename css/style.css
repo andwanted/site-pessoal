@@ -1,0 +1,52 @@
+*{margin: 0; padding: 0;}
+
+body{
+	font-family: 'Roboto';
+	font-size: 12px;
+}
+
+.menu{	background-color: #282A35;	width: 100%;	list-style:none;	border:1px solid #c0c0c0;	float:left;}
+
+.menu li{position:relative;float:left;border-right:1px solid #c0c0c0;height: 46px;}
+
+.menu li:hover{	background:black; }
+
+.menu li a{color:#fff; text-decoration:none; margin:10px 10px 10px 10px; display:block; font-size:18px; font-weight: bold; }
+
+.menu li a:hover{}
+
+.menu li  ul{position:absolute;top:45px;left:0;background-color: #282A35;display:none;}
+
+.menu li:hover ul, .menu li.over ul{display:block;}
+
+.menu li ul li{border:1px solid #c0c0c0;display:block;width:150px;}
+
+.lateral-java{
+	list-style:none;
+	float:left;
+	display: block;
+	height: 100%;
+    width: 15%;
+    background-color: #E7E9EB;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding-top: 20px;
+
+	 }
+
+.lateral-java li{ padding: 10px 10px 10px 10px; }
+
+.lateral-java li:hover{ background-color: #CCCCCC;}
+
+.lateral-java li a{
+	color: black;
+	font-family: "Segoe UI",Arial,sans-serif;
+    text-decoration: none;
+    display: block;
+    padding: 2px 1px 1px 16px;
+}
+
+.active{color:white; background-color: #04AA6D; font-family: "Segoe UI",Arial,sans-serif;
+    	text-decoration: none;
+    	display: block;
+    	padding: 2px 1px 1px 16px;}
