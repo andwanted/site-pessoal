@@ -1,3 +1,6 @@
+/*https://www.w3schools.com/css/css_margin.asp*/
+/*https://kenzie.com.br/blog/comentario-html/*/
+
 *{margin: 0; padding: 0;}
 
 body{
@@ -50,3 +53,19 @@ body{
     	text-decoration: none;
     	display: block;
     	padding: 2px 1px 1px 16px;}
+
+.portifolio-class {	background-color: #A2B5CD;	width: 100%; margin: 50px 50px 	0px 50px;	list-style:none;	border:1px solid #c0c0c0;	float:left;}
+
+.portifolio-class li{position:relative;float:left;border-right:1px solid #c0c0c0;height: 46px;}
+
+.portifolio-class li:hover{	background:black; }
+
+.portifolio-class li a{color:#fff; text-decoration:none; margin:10px 10px 10px 10px; display:block; font-size:18px; font-weight: bold; }
+
+.portifolio-class li a:hover{}
+
+.portifolio-class li  ul{position:absolute;top:45px;left:0;background-color: #282A35;display:none;}
+
+.portifolio-class li:hover ul, .menu li.over ul{display:block;}
+
+.portifolio-class li ul li{border:1px solid #c0c0c0;display:block;width:150px;}
