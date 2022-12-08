@@ -1,0 +1,9 @@
+O objeto System.out é a saída padrão, que permite exibir as Strings no console (terminal) de comando quando o aplicativo de Java é executado.
+Dentro desse objeto existem métodos para gerar saídas de Strings, entre elas são: println, print e o printf.
+
+
+public class Texto_Simples {
+	public static void main(String[] args) {
+               System.out.println(“Seu texto é inserido aqui, entre aspas duplas”);
+         }
+}
